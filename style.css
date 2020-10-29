@@ -8,57 +8,147 @@ body {
 
 .first-section {
   display: flex;
+  position: relative;
+}
+
+.brand-container {
+  background-image: url("images/photos/La-marque.png");
+  width: 50%;
+  height: 400px;
 }
 
 .rectangle-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  width: 50%;
 }
 
-.container-banner {
-  position: relative;
+.medias-container {
+  background-image: url("images/photos/medias-section.png");
+  padding: 50px;
+  margin: 10px;
+  margin-bottom: 25px;
+  margin-top: 0;
 }
 
-.text {
+.community-container {
+  background-image: url("images/photos/communauté.png");
+  padding: 50px;
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.brand-text {
+  margin-left: 150px;
   color: white;
-  font-weight: bold;
-}
-
-.brand-title {
-  position: absolute;
-  top: 60px;
-  left: 150px;
-  font-size: 24px;
-}
-
-.brand-paragraph {
-  position: absolute;
-  top: 200px;
-  left: 150px;
-  font-size: 18px;
-}
-
-.lines-corner {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.rectangle-shape-picture {
-  position: relative;
-}
-
-.media-title {
-  position: absolute;
-  top: 30px;
-  left: 100px;
 }
 
 .second-section-content {
   display: flex;
 }
 
+.second-text-container {
+  width: 30%;
+  margin: 15px;
+}
+
+.black-title {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.first-section-drone {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+}
+
+.vertical-picture {
+  margin: 15px;
+  width: 160px;
+}
+
+.picture-container {
+  margin: 15px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.small-picture {
+  margin-top: 20px;
+}
+
 .page-title {
   text-align: center;
+}
+
+.third-section-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  margin: 50px;
+}
+
+.product {
+  background-color: #fce258;
+  background-image: url("images/elements-graphiques/parallelogrammes-diagonales.png");
+  border-radius: 20px;
+}
+
+.picture {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.product-name {
+  text-align: center;
+  color: white;
+}
+
+.features-list {
+  list-style-type: none;
+  color: white;
+}
+
+.button {
+  width: 120px;
+  height: 34px;
+  background-color: #ff9f1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.button-text {
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.picture-horizontal-separator {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.partners-container {
+  display: flex;
 }
