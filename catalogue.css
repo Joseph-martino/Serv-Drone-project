@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+h2{
+    color: white;
+    padding: 5%;
+}
+.linetext{
+    width: 504px;
+    font-size: 1em;
+    margin-left: 8%;
+}
+.line1{
+    background-image: url('images/catalogue-servdroneclass_gt.png');
+    background-size: cover;
+    height: 727px;
+}
+.line2{
+    background-image: url('images/catalogue-servdroneplus_gt.png');
+    background-size: cover;
+    height: 727px;
+}
+.line3{
+    background-image: url('images/catalogue-servedronedeluxe_gt.png');
+    background-size: cover;
+    height: 727px;
+}
+@media screen and (max-width:1000px){
+    .line1{
+        background-image: url('images/catalogue-servdroneclass_mg.png');
+    }
+    .line2{
+        background-image: url('images/catalogue-servdroneplus_mg.png');
+    }
+    .line3{
+        background-image: url('images/catalogue-servedronedeluxe_mg.png');
+    }
+}
+@media screen and (max-width:768px){
+    .line1{
+        background-image: url('images/catalogue-servdroneclass_p.png');
+    }
+    .line2{
+        background-image: url('images/catalogue-servdroneplus_p.png');
+    }
+    .line3{
+        background-image: url('images/catalogue-servedronedeluxe_p.png');
+    }
+}
