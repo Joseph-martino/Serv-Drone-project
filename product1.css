@@ -1,0 +1,291 @@
+/*global*/
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  color: #000;
+}
+/*Header*/
+header {
+  background-image: url(images/header-product.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  margin: 10px;
+}
+ul {
+  display: flex;
+  margin-left: 70px;
+}
+nav ul li {
+  margin-right: 50px;
+  color: #000;
+  font-size: 12px;
+}
+nav ul li a:hover {
+  color: rgb(238, 124, 42);
+  font-weight: bold;
+}
+nav input {
+  width: 120px;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+.nav-parts-3 {
+  margin: 10px;
+}
+.nav-parts-3 img {
+  margin: 5px;
+}
+.networks {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.networks img {
+  padding: 5px;
+}
+.menu-burger {
+  display: none;
+}
+.description-product-v1 {
+  width: 400px;
+  padding-top: 50px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.description-product-v1 input {
+  width: 40%;
+}
+.description-product-v1 button {
+  background-color: rgb(237, 111, 27);
+}
+/*Section 1 mobile*/
+.description-product-v1-mobile {
+  display: none;
+}
+/*Section description*/
+.descritpion {
+  background-image: url(images/fond\ noir.png);
+  text-align: center;
+  font-size: 12px;
+  padding: 80px;
+  color: #ffffff;
+}
+/*section 10 services*/
+.ten-services {
+  display: flex;
+}
+.ten-services img {
+  width: 75%;
+}
+.ten-services .part2 {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+.ten {
+  font-size: 30px;
+  font-weight: bold;
+}
+/*Section friends*/
+.friends .part1 {
+  text-align: center;
+  
+}
+.friends .part2 {
+  display: flex;
+}
+.friends .part2 img {
+  margin: 20px;
+}
+/*section restaurant*/
+.restaurant {
+  background: url(images/restaurant-1807617_1920\ 1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
+.restaurant .part h2 {
+  padding-top: 30px;
+}
+.restaurant p {
+  width: 400px;
+  float: right;
+}
+/*Section technologie*/
+.technologie {
+  display: flex;
+  align-items: center;
+  background-image: url(images/Group\ 107.png);
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+}
+.technologie .part {
+ font-size: 12px;
+ width: 350px;
+ margin: 10px;
+}
+/*section technique*/
+.technique {
+  display: flex;
+  align-items: flex-end;
+  background-image: url(images/16\ 2.png);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: #ffffff;
+}
+.technique h2 {
+  font-size: 30px;
+  margin: 40px;
+}
+/*details*/
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/fond\ noir.png);
+  background-size: cover;
+  
+  background-position: center;
+}
+.details .part {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.details .part-text {
+  width: 220px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+}
+.details img {
+  width: 220px;
+}
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.logo-footer {
+  width: 200px;
+  margin-top: 80px;
+  padding-left: 100px;
+  justify-content: center;
+}
+.list-link li {
+  margin: 15px;
+}
+.list-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-right: 100px;
+}
+.list-link1 {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.list-link1 img {
+  margin: 10px;
+  width: 30px;
+}
+
+@media screen and (max-width: 1030px){
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  nav ul,
+  nav div {
+    display: none;
+    position: absolute;
+  }
+  .menu-burger {
+    display: block;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 90%;
+  }
+  header {
+    background-image: url(images/header-product.png);
+    background-size: cover;
+    background-position: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+  }
+  footer .logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+  }
+  .list-link1 {
+    margin-right: 100px;
+  }
+  /*product*/
+  .description-product-v1-mobile {
+    display: block;
+    margin-left: 20%;
+  }
+  .description-product-v1 {
+    display: none;
+  }
+  .networks {
+    margin-top: 30%;
+  }
+  button {
+    background-color: chocolate;
+  }
+  /*section ten services*/
+  .ten-services img {
+    width: 60%;
+  }
+  /*setion ten service*/
+  .ten-services img {
+    width: 80%;
+  }
+  .ten-services {
+    font-size: 13px;
+  }
+  .ten-services .part2 {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+  /*section technique*/
+  .details {
+    flex-direction: column;
+  }
+}
