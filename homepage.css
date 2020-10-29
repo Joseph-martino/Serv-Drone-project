@@ -1,0 +1,407 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("font/montserrat-v15-latin-regular.woff2") format("woff2"),
+    url("font/montserrat-v15-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat Black"), local("Montserrat-Black"),
+    url("font/montserrat-v15-latin-900.woff2") format("woff2"),
+    url("font/montserrat-v15-latin-900.woff") format("woff");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+.first-section {
+  display: flex;
+  position: relative;
+}
+
+.brand-container {
+  width: 50%;
+  height: 400px;
+  margin: 0 12px 0 25px;
+  position: relative;
+}
+
+.brand-title {
+  display: none;
+  position: absolute;
+  font-weight: bold;
+}
+
+.rectangle-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 43px 0 12px;
+  height: 400px;
+}
+
+.medias-container {
+  position: relative;
+  height: 50%;
+  margin-bottom: 9.5px;
+}
+
+.button-title {
+  color: white;
+  font-weight: 900;
+}
+
+.medias-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.community-container {
+  position: relative;
+  height: 50%;
+  margin-top: 9.5px;
+}
+
+.img-brand-desktop,
+.img-brand-mobile,
+.img-media-desktop,
+.img-media-mobile,
+.services-image-mobile,
+.community-container img,
+.logo-partners-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-brand-mobile {
+  display: none;
+}
+
+.communauty-title {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+
+.brand-text {
+  margin-left: 150px;
+  color: white;
+}
+
+.second-section {
+  margin-top: 56px;
+}
+
+.second-section-content {
+  display: flex;
+}
+
+.second-text-container {
+  margin-left: 46px;
+  margin-top: 96px;
+}
+
+.black-title {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.first-section-drone {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+}
+
+.vertical-picture {
+  width: 500px;
+  margin-left: 15px;
+}
+
+.picture-container {
+  margin-right: 82px;
+  margin-left: 15px;
+}
+
+.small-picture {
+  margin-top: 20px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.third-section-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  margin: 50px;
+}
+
+.product {
+  background-color: #fce258;
+  background-image: url("images/elements-graphiques/parallelogrammes-diagonales.png");
+  border-radius: 20px;
+}
+
+.services-title-mobile,
+.partners-title-mobile {
+  position: relative;
+  display: none;
+  margin-top: 30px;
+}
+
+.services-title-mobile-text,
+.partners-title-mobile-text {
+  position: absolute;
+  top: 5%;
+  left: 18%;
+}
+
+.picture {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.product-name {
+  text-align: center;
+  color: white;
+}
+
+.features-list {
+  list-style-type: none;
+  color: white;
+}
+
+.button {
+  width: 120px;
+  height: 34px;
+  background-color: #ff9f1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.button-text {
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.picture-horizontal-separator {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.partners-title {
+  margin: 0 16px;
+}
+
+.partners-container {
+  display: flex;
+}
+
+.logo-partners-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .first-section {
+    display: block;
+  }
+  .brand-container {
+    width: 100%;
+    height: 145px;
+    margin: 0;
+  }
+
+  .brand-title {
+    display: block;
+    top: 26%;
+    left: 32%;
+  }
+
+  .img-brand-desktop {
+    display: none;
+  }
+
+  .img-brand-mobile {
+    display: block;
+  }
+
+  .img-media-desktop {
+    display: none;
+  }
+
+  .img-media-mobile {
+    display: block;
+  }
+
+  .rectangle-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: 292px;
+  }
+
+  .medias-container {
+    width: 100%;
+    height: 145px;
+    margin: 0;
+  }
+
+  .medias-title {
+    top: 27%;
+    left: 32%;
+  }
+
+  .communauty-title {
+    bottom: 27%;
+    left: 28%;
+  }
+
+  .community-container {
+    width: 100%;
+    height: 145px;
+    margin: 0;
+  }
+  .first-section-drone {
+    display: none;
+  }
+
+  .big-picture,
+  .big-picture-mobile {
+    width: 100%;
+  }
+
+  .big-picture-mobile {
+    display: none;
+  }
+
+  .small-picture-mobile {
+    display: none;
+  }
+
+  .small-picture,
+  .small-picture-mobile {
+    width: 100%;
+  }
+
+  .black-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .second-section {
+    margin: 16px 0 0 0;
+  }
+
+  .second-section-content {
+    display: block;
+  }
+
+  .vertical-picture {
+    display: none;
+  }
+
+  .second-text-container {
+    margin: 0;
+  }
+
+  .picture-container {
+    display: none;
+  }
+
+  .big-picture-mobile {
+    display: block;
+  }
+
+  .big-picture {
+    display: none;
+  }
+
+  .small-picture-mobile {
+    display: block;
+  }
+
+  .small-picture {
+    display: none;
+  }
+
+  .horizontal-graphic-separator {
+    display: none;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .services-title,
+  .partners-title {
+    display: none;
+  }
+
+  .partners-title-mobile,
+  .services-title-mobile {
+    display: block;
+    height: 145px;
+  }
+
+  .services-title-mobile {
+    margin-top: 0;
+  }
+
+  .third-section-content {
+    display: block;
+  }
+
+  .product,
+  .product > .product-picture-container,
+  .product > .product-picture-container > .picture {
+    width: 100%;
+  }
+
+  .picture-horizontal-separator {
+    display: none;
+  }
+
+  .partners-container {
+    display: none;
+  }
+
+  .logo-partners-mobile {
+    display: block;
+  }
+}
