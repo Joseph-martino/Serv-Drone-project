@@ -1,8 +1,126 @@
 
-
 .rowone{
-
+    margin-bottom: 2%;
+    display: flex;
+}
+.rowone img{
+height: 275px;
+width: 509px;
+margin-top: 3%;
 }
 .text{
+    width: 840px;
+    height: 205px;
     float: left;
+}
+.text p{
+    margin-left: 54px;
+}
+.text h1{
+    margin-left: 40%;
+    font-size: 3em;
+}
+.rowtwo{
+    background-image: url('images/founders-banner.png');
+    background-size: cover;
+    height: 5%;
+    
+}
+.rowtwo h2{
+    color: white;
+    font-size: 3em;
+    margin-left: 70%;
+    padding-top: 13%;
+}
+.bloc1{
+    color: wheat;
+    width: 342px;
+    height: 291px;
+    background-color:#fce258;
+    background-image: url(elements-graphiques/parallelogrammes-diagonales.png);
+}
+.rowfour{
+    background-image: url('images/technology-banner.png');
+    height: 354px;
+}
+.graphicelement{
+    position:relative;
+    top:120px;
+}
+.product {
+    background-color: #FCE258;
+    background-image: url("elements-graphiques/parallelogrammes-diagonales.png");
+    border-radius: 20px;
+    width: 315px;
+    height: 496px;
+    margin-top: 5%;
+}
+  .picture {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+  .text-container {
+    width: 100%;
+}
+  .product-name {
+    text-align: center;
+    color: white;
+}
+  .features-list {
+    list-style-type: none;
+    color: white;
+}
+.containerbloc{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:1370px){
+    .text {
+        width: 800px;
+    }
+    .rowone img {
+        width: 309px;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:1190px){
+    .text{
+        width:700px;
+        margin-left:20%;
+    }
+    .rowone img{
+        width: 200px;;
+    }
+    .rowfour{
+        width: 960px;
+    }
+}
+@media screen and (max-width:992px){
+    .text{
+            margin-bottom: 10%;
+            margin-left: 10%;
+    }
+    .rowone{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .rowtwo{
+        width:960px
+    }
+    .containerbloc{
+        width: 960px;
+    }
+    .interbloc{
+        width:960px ;
+    }
+}
+@media screen and (max-width:600px){
+    p{
+        margin-left: 10%;
+    }
+    .bloctext{
+    margin-left: 20%;
+    }
+    
+    
 }
