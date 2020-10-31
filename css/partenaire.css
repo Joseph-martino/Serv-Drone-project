@@ -1,28 +1,25 @@
-body {
+body{
   margin: 0;
   padding: 0;
 }
-
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1 {
+h1{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
-
-.flex img{
+.largeur{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.largeur img{
+      height: 169px;
+
+  width: 1349px;
 }
 
-img 1{
+.mini img {
+  height: 64px;
+  width: 355px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
 }
