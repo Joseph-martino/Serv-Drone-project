@@ -39,9 +39,18 @@ body {
 }
 
 .brand-title {
-  display: none;
   position: absolute;
+  top: 30%;
+  left: 20%;
   font-weight: bold;
+}
+
+.brand-text {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  font-weight: 900;
+  font-size: 18px;
 }
 
 .rectangle-container {
@@ -61,12 +70,13 @@ body {
 .button-title {
   color: white;
   font-weight: 900;
+  font-size: 30px;
 }
 
 .medias-title {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
 }
 
 .community-container {
@@ -93,8 +103,8 @@ body {
 
 .communauty-title {
   position: absolute;
-  bottom: 10%;
-  left: 20%;
+  bottom: 40%;
+  left: 30%;
 }
 
 .brand-text {
@@ -119,6 +129,11 @@ body {
   color: black;
   font-weight: bold;
   font-size: 24px;
+}
+
+.big-picture-mobile,
+.small-picture-mobile {
+  display: none;
 }
 
 .paragraph {
@@ -250,6 +265,10 @@ body {
     display: block;
     top: 26%;
     left: 32%;
+  }
+
+  .brand-text {
+    display: none;
   }
 
   .img-brand-desktop {
@@ -391,6 +410,11 @@ body {
   .product > .product-picture-container,
   .product > .product-picture-container > .picture {
     width: 100%;
+  }
+
+  .product {
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .picture-horizontal-separator {
