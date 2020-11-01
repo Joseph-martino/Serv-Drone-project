@@ -26,6 +26,174 @@ body {
   overflow-x: hidden;
 }
 
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner-right {
+  height: 100vh;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-right-part {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right-part-content {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  color: white;
+  font-size: 24px;
+  font-family: "Montserrat";
+}
+
+.blue-highlight {
+  color: #3598cf;
+}
+
+.header-nav-bar {
+  position: relative;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.servdrone-logo {
+  height: 80px;
+  width: 197px;
+  margin: 7px 15px;
+}
+
+.tabs-list {
+  display: flex;
+  padding: 0;
+}
+
+.tabs-list li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 20px;
+  list-style-type: none;
+  color: white;
+}
+
+.tabs-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.action-menu {
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+}
+
+#research-bar {
+  border-radius: 35px;
+  width: 120px;
+}
+
+.login-cart {
+  margin-left: 10px;
+}
+
+.icon {
+  height: 21px;
+  width: 21px;
+  margin: 0 7px;
+}
+
+.social-networks {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 50px;
+}
+
+.social-network-logo {
+  height: 30px;
+}
+
+.social-networks a {
+  margin: 10px;
+}
+
+/* header {
+  display: flex;
+}
+
+.servdrone-logo {
+  height: 54px;
+  width: 149px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tabs-list {
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs-list li {
+  margin: 20px;
+}
+
+.login-cart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-banner {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.social-networks {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.social-network-logo {
+  height: 30px;
+  width: 30px;
+  margin: 7px;
+} */
+
 .first-section {
   display: flex;
   position: relative;
@@ -39,18 +207,9 @@ body {
 }
 
 .brand-title {
+  display: none;
   position: absolute;
-  top: 30%;
-  left: 20%;
   font-weight: bold;
-}
-
-.brand-text {
-  position: absolute;
-  bottom: 10%;
-  right: 20%;
-  font-weight: 900;
-  font-size: 18px;
 }
 
 .rectangle-container {
@@ -70,13 +229,12 @@ body {
 .button-title {
   color: white;
   font-weight: 900;
-  font-size: 30px;
 }
 
 .medias-title {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
 }
 
 .community-container {
@@ -103,8 +261,8 @@ body {
 
 .communauty-title {
   position: absolute;
-  bottom: 40%;
-  left: 30%;
+  bottom: 10%;
+  left: 20%;
 }
 
 .brand-text {
@@ -131,11 +289,6 @@ body {
   font-size: 24px;
 }
 
-.big-picture-mobile,
-.small-picture-mobile {
-  display: none;
-}
-
 .paragraph {
   font-size: 20px;
   margin-left: 15px;
@@ -158,8 +311,16 @@ body {
   margin-left: 15px;
 }
 
+.big-picture-mobile {
+  display: none;
+}
+
 .small-picture {
   margin-top: 20px;
+}
+
+.small-picture-mobile {
+  display: none;
 }
 
 .page-title {
@@ -265,10 +426,6 @@ body {
     display: block;
     top: 26%;
     left: 32%;
-  }
-
-  .brand-text {
-    display: none;
   }
 
   .img-brand-desktop {
@@ -410,11 +567,6 @@ body {
   .product > .product-picture-container,
   .product > .product-picture-container > .picture {
     width: 100%;
-  }
-
-  .product {
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .picture-horizontal-separator {
