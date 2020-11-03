@@ -1,28 +1,95 @@
-body {
+body{
   margin: 0;
   padding: 0;
 }
-
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1 {
+h1{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+}
+h2{
+  margin: 12px;
+  padding: 12px;
 }
 
-.flex img{
+p{
+  margin: 12px;
+  padding: 12px;
+}
+.titre{
+margin-top: 45px;
+}
+
+
+
+.largeur{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.largeur img{
+  height: 169px;
+  width: 1349px;
 }
 
-img 1{
+
+.mini img {
+  height: 64px;
+  width: 355px;
+}
+
+.right img {
+  height: 64px;
+  width: 355px;
   display: flex;
+  float: right;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.logo-footer {
+  width: 200px;
+  margin-top: 80px;
+  padding-left: 100px;
   justify-content: center;
-  align-items: center;
-  width: 100px;
+}
+.list-link li {
+  margin: 15px;
+}
+.list-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-right: 100px;
+}
+.list-link1 {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.list-link1 img {
+  margin: 10px;
+  width: 30px;
+}
+@media screen and (max-width: 1030px){
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+  }
+  footer .logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+  }
+  .list-link1 {
+    margin-right: 100px;
+  }
 }
