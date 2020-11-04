@@ -1,106 +1,66 @@
-body{
-  margin: 0;
-  padding: 0;
-}
 h1{
-  text-align: center;
+    text-align: center;
+    margin-bottom: 5%;
 }
-h2{
-  margin: 12px;
-  padding: 12px;
+.rowone p {
+    width: 41%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-p{
-  margin: 12px;
-  padding: 12px;
+.tree_pics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.titre{
-margin-top: 45px; 
-}
-
-.logo img{
-  width: 159px;
-  position: relative;
-  float: right;
-  top: 12px;
-}
-.logo2 img{
-  position: relative;
-  float: right;
-  width: 162px;
-  top: 23px;
-}
-
-.largeur{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.largeur img{
-  height: 169px;
-  width: 1349px;
-}
-
-
-.mini img {
-  height: 64px;
-  width: 355px;
-}
-
-.right img {
-  height: 64px;
-  width: 355px;
-  display: flex;
-  float: right;
-}
-
-/*footer*/
-footer {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-}
-.logo-footer {
-  width: 200px;
-  margin-top: 80px;
-  padding-left: 100px;
-  justify-content: center;
-}
-.list-link li {
-  margin: 15px;
-}
-.list-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding-right: 100px;
-}
-.list-link1 {
-  display: flex;
-  margin-bottom: 100px;
-  justify-content: center;
-}
-.list-link1 img {
-  margin: 10px;
-  width: 30px;
-}
-@media screen and (max-width: 1030px){
-
-  footer {
+.first_img{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size: 12px;
-  }
-  footer .logo {
+    text-align: center;
+}
+.graf{
+    width: 100%;
+}
+.second_img{
     display: flex;
-    justify-content: center;
-    margin-right: 90px;
-  }
-  .list-link1 {
-    margin-right: 100px;
-  }
+    flex-direction: column;
+    text-align: center;
+}
+.third_img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rowtwo{
+    background-color: #F1EBEB;
+    padding: 5%;
+    font-weight: 900;
+}
+.rowtwo h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.end{
+    background-image: url('../images/paralellogrammes-obliques.png');
+    background-size: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+.coin{
+    width: 30%;
+}
+.imgbottom{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left:24% ;
+    margin-top: 13%;
+    height: 30%;
+}
+.textbottom{
+    width: 30%;
+    margin-top: 10%;
+    text-align: justify;
 }
