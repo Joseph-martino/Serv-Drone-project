@@ -30,7 +30,6 @@ body {
   }
   ul {
     display: flex;
-    margin-left: 70px;
   }
   nav ul li {
     margin-right: 50px;

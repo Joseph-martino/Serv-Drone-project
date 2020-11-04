@@ -30,7 +30,6 @@ nav {
 }
 ul {
   display: flex;
-  margin-left: 70px;
 }
 nav ul li {
   margin-right: 50px;
@@ -62,56 +61,90 @@ nav input {
 .networks img {
   padding: 5px;
 }
-.menu-burger {
+/*menu burger*/
+
+.nav-burger {
   display: none;
 }
-/*footer*/
-footer {
+
+.nav-logos {
+  
   display: flex;
-  justify-content: space-between;
-  font-size: 12px;
 }
-.logo-footer {
-  width: 200px;
-  margin-top: 80px;
-  padding-left: 100px;
-  justify-content: center;
+.nav-logos li {
+  list-style: none;
 }
-.list-link li {
-  margin: 15px;
+
+.nav-logos li a {
+ display:block;
+ width:130px;
+ color:white;
+ color: black;
 }
-.list-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding-right: 100px;
+
+.nav-logos li ul {
+  display:none;
+  }
+.nav-logos li ul li {
+  line-height: 40px;
 }
-.list-link1 {
-  display: flex;
-  margin-bottom: 100px;
-  justify-content: center;
+.nav-logos li:hover ul {
+    display:block;
+    position: absolute;
+    top: 50px;
+    left: 255px;
+    background-color: #ffffffbd;
+    border-radius: 5px;
+    text-align: center;
 }
-.list-link1 img {
-  margin: 10px;
-  width: 30px;
-}
+  .nav-logos li ul {
+  position:absolute;
+  }
 @media screen and (max-width: 1030px){
+  /*mobil nav*/
+  .nav-burger {
+    display: flex;
+  }
+  .nav-burger a img {
+    position: absolute;
+    right: 30px;
+    margin: 0;
+  }
+  .nav-burger li a {
+   display:block;
+   color:white;
+   color: black;
+   width: 150px;
+   line-height: 60px;
+  }
+  .nav-burger li ul {
+    display:none;
+    background-color: #ffffffe1;
+    position:absolute;
+    right: 0px;
+    top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    padding-right: 40%;
+    padding-left: 40%;
+    }
+  .nav-burger li:hover ul {
+      display:block;
+  }
+   .nav-burger li:hover ul li {
+      float:none;
+      }
+
   h1 {
     font-size: 13px;
   }
-  nav ul,
-  nav div {
+  nav .menu-pc,
+  .nav-parts-3 {
     display: none;
     position: absolute;
   }
-  .menu-burger {
-    display: block;
-    width: 30px;
-    position: absolute;
-    top: 20px;
-    left: 90%;
-  }
+  
   header {
     background-image: url(images/main\ banner.png);
     background-size: cover;

@@ -27,7 +27,6 @@ nav {
 }
 ul {
   display: flex;
-  margin-left: 70px;
 }
 nav ul li {
   margin-right: 50px;
@@ -73,6 +72,46 @@ nav input {
 .description-product-v1 button {
   background-color: rgb(237, 111, 27);
 }
+/*menu burger*/
+
+.nav-burger {
+  display: none;
+}
+
+.nav-logos {
+  
+  display: flex;
+}
+.nav-logos li {
+  list-style: none;
+}
+
+.nav-logos li a {
+ display:block;
+ width:130px;
+ color:white;
+ color: black;
+}
+
+.nav-logos li ul {
+  display:none;
+  }
+.nav-logos li ul li {
+  line-height: 40px;
+}
+.nav-logos li:hover ul {
+    display:block;
+    position: absolute;
+    top: 50px;
+    left: 255px;
+    background-color: #ffffffbd;
+    border-radius: 5px;
+    text-align: center;
+}
+  .nav-logos li ul {
+  position:absolute;
+  }
+
 /*Section 1 mobile*/
 .description-product-v1-mobile {
   display: none;
@@ -218,6 +257,41 @@ footer {
 }
 
 @media screen and (max-width: 1030px){
+  /*mobil nav*/
+  .nav-burger {
+    display: flex;
+    width: 100%;
+  }
+  .nav-burger a img {
+    position: relative;
+    left: 350px;
+  }
+  .nav-burger li a {
+   display:block;
+   color:white;
+   color: black;
+   width: 150px;
+   line-height: 60px;
+  }
+  .nav-burger li ul {
+    display:none;
+    background-color: #ffffffe1;
+    position:absolute;
+    right: 0px;
+    top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    padding-right: 40%;
+    padding-left: 40%;
+    }
+  .nav-burger li:hover ul {
+      display:block;
+  }
+   .nav-burger li:hover ul li {
+      float:none;
+      }
+
   h1 {
     font-size: 25px;
   }

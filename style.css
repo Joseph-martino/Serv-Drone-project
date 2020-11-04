@@ -30,7 +30,6 @@ nav {
 }
 ul {
   display: flex;
-  margin-left: 70px;
 }
 nav ul li {
   margin-right: 50px;
@@ -62,11 +61,6 @@ nav input {
 .networks img {
   padding: 5px;
 }
-
-
-
-
-
 /*menu burger*/
 
 .nav-burger {
@@ -74,7 +68,6 @@ nav input {
 }
 
 .nav-logos {
-  
   display: flex;
 }
 .nav-logos li {
@@ -106,13 +99,6 @@ nav input {
   .nav-logos li ul {
   position:absolute;
   }
-
-
-
-
-
-
-
 /*footer*/
 footer {
   display: flex;
@@ -145,11 +131,6 @@ footer {
   width: 30px;
 }
 @media screen and (max-width: 1030px){
-
-
-
-
-  
   /*mobil nav*/
   .nav-burger {
     display: flex;
@@ -178,6 +159,7 @@ footer {
     padding-right: 40%;
     padding-left: 40%;
     }
+  
   .nav-burger li:hover ul {
       display:block;
   }
@@ -185,15 +167,6 @@ footer {
       float:none;
       }
 
-
-
-
-
-
-
-
-
-      
   h1 {
     font-size: 13px;
   }
@@ -202,13 +175,7 @@ footer {
     display: none;
     position: absolute;
   }
-  nav .menu-mobile-burger {
-    display: block;
-    width: 30px;
-    position: absolute;
-    top: 20px;
-    left: 90%;
-  }
+  
   header {
     background-image: url(images/main\ banner.png);
     background-size: cover;
