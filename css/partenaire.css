@@ -22,6 +22,7 @@ p{
   display: unset;
   /* margin: 101px; */
   margin-left: 195px;
+  padding: 12px;
 }
 .grey_photo h3{
   text-align: center;
@@ -70,15 +71,27 @@ p{
   /* bottom: 22px; */
   display: flex;
   /* position: absolute; */
+  position: relative;
   margin-left: 538px;
   /* top: 1369px; */
   /* margin: 4px; */
   padding: 4px;
+  /* top: -4px; */
+  bottom: 114px;
 }
 .left1_photo img {
   display: flex;
   margin-left: 539px;
-
+  /* bottom: 22px; */
+  display: flex;
+  /* position: absolute; */
+  position: relative;
+  margin-left: 538px;
+  /* top: 1369px; */
+  /* margin: 4px; */
+  padding: 4px;
+  /* top: -4px; */
+  bottom: 114px;
 }
 .second_img{
   display: flex;
