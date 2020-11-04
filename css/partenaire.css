@@ -51,11 +51,13 @@ h1{
 .coin{
     width: 30%;
 }
+.empty{
+    width: 30%;
+}
 .imgbottom{
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-left:24% ;
     margin-top: 13%;
     height: 30%;
 }
@@ -63,4 +65,29 @@ h1{
     width: 30%;
     margin-top: 10%;
     text-align: justify;
+}
+@media screen and (max-width:992px){
+    .empty{
+        display: none;
+    }
+    .imgbottom{
+        width: 40%;
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width:768px){
+    .empty{
+        display: none;
+    }
+    .imgbottom{
+        width: 60%;
+    }
+    .textbottom{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .textbottom h2{
+        text-align: center;
+    }
+    
 }
