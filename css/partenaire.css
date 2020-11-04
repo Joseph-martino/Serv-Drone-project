@@ -11,11 +11,47 @@ h2{
 }
 
 p{
-  margin: 12px;
-  padding: 12px;
+  margin: 96px;
+  padding: 24px;
 }
+.grey_photo{
+  display: flex;
+  background-color: #F1EBEB;
+  align-items: center;
+  justify-content: center;
+}
+.grey_texte h2{
+  text-align: center;
+  display: unset;
+  /* margin: 101px; */
+  margin-left: 195px;
+}
+.grey_photo h3{
+  text-align: center;
+
+}
+
+
+.trait img{
+  display: flex;
+  width: 688px;
+  height: 99px;
+}
+
+
+.photo img{
+  width: 332px;
+  height: 193px;
+  /* margin: -37px; */
+  padding: 17px;
+  margin: left;
+  margin-left: 49px;
+}
+
+
+
 .titre{
-margin-top: 45px; 
+  margin-top: 45px;
 }
 
 .logo img{
@@ -49,11 +85,19 @@ margin-top: 45px;
   width: 355px;
 }
 
-.right img {
-  height: 64px;
-  width: 355px;
+.left_photo img {
+  /* bottom: 22px; */
   display: flex;
-  float: right;
+  /* position: absolute; */
+  margin-left: 538px;
+  /* top: 1369px; */
+  /* margin: 4px; */
+  padding: 4px;
+}
+.left1_photo img {
+  display: flex;
+  margin-left: 539px;
+
 }
 
 /*footer*/
