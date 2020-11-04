@@ -1,7 +1,13 @@
 /*global*/
+
+html,
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -108,6 +114,7 @@ nav input {
   flex-direction: column;
   background-image: url(images/support.png);
   background-size: cover;
+  background-position: center;
 }
 .contact-content {
 display: flex;
@@ -223,6 +230,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-right: 90px;
+    padding-right: 60px;
   }
   .list-link1 {
     margin-right: 100px;

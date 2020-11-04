@@ -1,7 +1,12 @@
 /*global*/
+html,
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -292,7 +297,6 @@ footer {
       float:none;
       }
 
-
   h1 {
     font-size: 25px;
   }
@@ -320,6 +324,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-right: 90px;
+    padding-right: 60px;
   }
   .list-link1 {
     margin-right: 100px;

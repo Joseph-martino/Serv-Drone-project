@@ -1,7 +1,13 @@
 /*global*/
+/*global*/
+html,
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -293,7 +299,6 @@ footer {
       float:none;
       }
 
-
   h1 {
     font-size: 25px;
   }
@@ -322,11 +327,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     font-size: 12px;
+    padding-left: 35px;
   }
   footer .logo {
     display: flex;
     justify-content: center;
-    margin-right: 90px;
+    margin-right: 150px;
   }
   .list-link1 {
     margin-right: 100px;
